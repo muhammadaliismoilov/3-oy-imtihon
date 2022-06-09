@@ -1,21 +1,21 @@
 // 1-MASALA
-// let array = []
-// array.push(Number(prompt("Raqam kiriting:")))
-// array.push(Number(prompt("Raqam kiriting:")))
-// array.push(Number(prompt("Raqam kiriting:")))
-// array.push(Number(prompt("Raqam kiriting:")))
-// array.push(Number(prompt("Raqam kiriting:")))
+let array = []
+array.push(Number(prompt("Raqam kiriting:")))
+array.push(Number(prompt("Raqam kiriting:")))
+array.push(Number(prompt("Raqam kiriting:")))
+array.push(Number(prompt("Raqam kiriting:")))
+array.push(Number(prompt("Raqam kiriting:")))
 
-// function sum(array) {
-//     let sum = 0;
-//     for(let i of array){
-//         sum+=i
-//         console.log(i);
-//     }
-//     return sum;
-// }
+function sum(array) {
+    let sum = 0;
+    for(let i of array){
+        sum+=i
+        console.log(i);
+    }
+    return sum;
+}
 
-// console.log(sum(array))
+console.log(sum(array))
 
 
 
